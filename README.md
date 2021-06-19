@@ -20,11 +20,11 @@ python3 train_model.py $copy $epochs $patience $fold $threshold $rounds $batch_s
   * `size` : size of the images in pixels. For example `size=150` in this case the images will be 150x150 pixels
 
 
-### /det_per_round_RAW36plex.csv:
+### FILES
 
-This file contains all the information needed to train the models with the RAW and DECONVOLVED images. Description of the columns:
-	* X: X position in the image in microns (centroid)
-	* Y: Y position in the image in microns (centroid)
+  * `/det_per_round_RAW36plex.csv` : This file contains all the information needed to train the models with the RAW and DECONVOLVED images. Description of the columns:
+    * X: X position in the image in microns (centroid)
+    * Y: Y position in the image in microns (centroid)
 	* Area: total area of the roi in the raw image
 	* Perim.: size of the perimeter of the cell
 	* roi: Roi number in the raw image
