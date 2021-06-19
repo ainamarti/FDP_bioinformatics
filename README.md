@@ -2,10 +2,17 @@
 ## Aina Martí Aranda 2021
 Scripts and materials used in my final graduate project: "Application and development of a CNN model to optimize an OligoFISSEQ image obtention pipeline".
 
+### USAGE
+To build models with the scripts, type the following with your own variables:
+```python
+python3 train_model.py $copy $epochs $patience $fold $threshold $rounds $batch_size $output_name $raw $approach_folder $size
+```
+  * ``copy`: this determines the number of copies to be generated for each original image. 0 means no data augmentation. 9 means having 10 versions of the same image (the original plus 9 copies)
+
 
 ### /det_per_round_RAW36plex.csv:
 
-This file contains all the information needed to train the models with the RAW images. Description of the columns:
+This file contains all the information needed to train the models with the RAW and DECONVOLVED images. Description of the columns:
 	* X: X position in the image in microns (centroid)
 	* Y: Y position in the image in microns (centroid)
 	* Area: total area of the roi in the raw image
