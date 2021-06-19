@@ -22,7 +22,7 @@ python3 train_model.py $copy $epochs $patience $fold $threshold $rounds $batch_s
 
 ### FILES
 
-  * `/det_per_round_RAW36plex.csv` : This file contains all the information needed to train the models with the RAW and DECONVOLVED images. Description of the columns:
+  * [`/det_per_round_RAW36plex.csv`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/det_per_round_RAW36plex.csv) : This file contains all the information needed to train the models with the RAW and DECONVOLVED images. Description of the columns:
     * X: X position in the image in microns (centroid)
     * Y: Y position in the image in microns (centroid)
 	* Area: total area of the roi in the raw image
