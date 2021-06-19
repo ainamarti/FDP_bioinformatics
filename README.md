@@ -7,7 +7,7 @@ To build models with the scripts, type the following with your own variables:
 ```python
 python3 train_model.py $copy $epochs $patience $fold $threshold $rounds $batch_size $output_name $raw $approach_folder $size
 ```
-  * ``copy`: this determines the number of copies to be generated for each original image. 0 means no data augmentation. 9 means having 10 versions of the same image (the original plus 9 copies)
+  * `copy`: this determines the number of copies to be generated for each original image. 0 means no data augmentation. 9 means having 10 versions of the same image (the original plus 9 copies)
 
 
 ### /det_per_round_RAW36plex.csv:
