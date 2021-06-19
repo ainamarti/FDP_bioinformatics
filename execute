@@ -4,7 +4,7 @@ epochs=200
 raw=0
 approach=approach15
 size=150
-for rounds in 4 3 2;
+for rounds in 4 3 2 1;
 do 
 	python3 train_model.py $copy $epochs 50 fold1 0.4 $rounds $batch_size output.txt $raw $approach $size
 	python3 train_model.py $copy $epochs 50 fold2 0.4 $rounds $batch_size output.txt $raw $approach $size
