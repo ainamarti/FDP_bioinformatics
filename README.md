@@ -41,3 +41,9 @@ python3 train_model.py $copy $epochs $patience $fold $threshold $rounds $batch_s
 	* 2: number of barcodes detected with the first and second rounds.
 	* 3: number of barcodes detected with the 1st, 2nd, and 3rd rounds.
 	* 4: number of barcodes detected with the 1st, 2nd, 3rd, and 4th rounds.
+  * [`/execute`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/execute) : This bash file shows an example for the execution of several models. It executes the 4 models (with 4, 3, 2 and 1 rounds of sequencing) for each fold. 
+  * [`/libraries.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/libraries.py) : This python file imports all the needed libraries.
+  * [`/my_functions.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/my_functions.py) : This python file contains all the functions needed for the main script to work.
+  * [`/output.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/execute) : This python file takes the output from an approach and gives the summarized results.  
+  * [`/train_list.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/execute) : This python file generates the indexes for all the datasets (training, folds and external validation).
+  * [`/train_model.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/execute) : This is the main script. It calls the functions in the file `my_functions.py` to prepare the images, and build, train and save the models. To use the scripts, this file should be called as detailed in the [usage](https://github.com/ainamarti/FDP_bioinformatics/tree/main#usage) section.
