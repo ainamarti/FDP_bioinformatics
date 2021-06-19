@@ -46,4 +46,5 @@ python3 train_model.py $copy $epochs $patience $fold $threshold $rounds $batch_s
   * [`/libraries.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/libraries.py) : This python file imports all the needed libraries.
   * [`/my_functions.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/my_functions.py) : This python file contains all the functions needed for the main script to work.
   * [`/output.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/execute) : This python file takes the output from an approach and gives the summarized results.  
-  * [`/train_list.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/execute) : This python file generates the indexes for all the datasets (training, folds and external validation).
+  * [`/train_list.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/train_list.py) : This python file generates the indexes for all the datasets (training, folds and external validation).
+  * [`/notebooks.py`](https://github.com/ainamarti/FDP_bioinformatics/blob/main/notebooks) : This folder contains several jupyter notebooks aimed to analyze the results generated and create the plots from the project.
